@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+   display: grid; 
+
+    grid-template-columns: 40% 60% ;
+  
+ 
+}
+.main-image{
+height: 100%;
+width: 100%
+}
+
+#r1c1{
+    padding: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+background-color: rgb(246, 248, 248);
+
+}
+
+#r2{
+height: 200px;
+
+padding: 30px;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-column: span 2;
+
+
+}
+.contact-info, .r3c1 h1{
+    background-color: #595959;
+    color: aliceblue;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+}
+
+
+#r1c2{
+    padding: 30px;
+ 
+    background-color: rgb(237, 236, 247);
+grid-column-start: 2;
+grid-column-end: 2;
+}
+#r3c1{
+    padding: 30px;
+    background-color:#595959;
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#r3c2{
+    padding: 30px;
+background-color: rgb(240, 234, 228);
+grid-column-start: 2;
+grid-column-end: 2;
+
+}
+
+#r2, .experties-info>.experience{
+    background-color:#ffdf7c;
+}
+
+.experties-info{
+
+    background-color: #404040;
+    height: 300px;
+}
+.contact-info{
+    height: 300px;
+}
+.eduction{
+
+    background-color: #000000;
+    height: 300px;
+
+}
+@media only screen and (max-width: 948px) {
+    #root {
+      background-color: lightblue;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 280px;
+
+    }
+  }
+

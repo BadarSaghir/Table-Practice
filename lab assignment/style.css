@@ -1,0 +1,45 @@
+table {
+    background-color: #f8c5c5;
+    border-collapse: separate;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-width: 3px;
+    border-top-color: #351212;
+    border-left-color: #515c2a;
+    border-right-color: #97aff8;
+    border-bottom-color: #360808;
+    border-right-style: dashed;
+    border-bottom-width: 14px;
+    border-left-width: 2px;
+    border-right-width: 6px;
+    border-top-width: 10x;
+
+}
+
+td,th {
+    padding: 20px;
+}
+
+thead th,
+thead {
+    background-color: #0d2233;
+}
+
+th,
+caption {
+    color: #b5e6f3;
+
+}
+
+td {
+    color: #1a2427;
+}
+
+tr {
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+

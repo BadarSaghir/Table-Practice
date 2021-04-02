@@ -1,0 +1,64 @@
+
+
+.div1 {
+    padding: 12px;
+    
+    width: 40%;
+    height: 40%;
+    border: 2px solid black;
+
+    border-bottom: none;
+    margin-left: 28%;
+   
+    background-color: #e3ffb7;
+}
+
+.div2 {
+    padding: 12px;
+    width: 40%;
+    height: 50%;
+    border-top: none;
+    border: 2px solid black;
+ 
+
+    margin-left: 28%;
+    background-color: #80655d;
+}
+
+img {
+    margin-left: 25%;
+}
+
+.div2 h3 {
+    text-align: justify;
+    color: #daffe9;
+    font-family: monospace
+}
+
+.div2 p {
+    text-align: justify;
+    color: white;
+   
+}
+
+.div2 ul {
+    text-align: justify;
+    color: white;
+
+}
+
+.div2 ol {
+    text-align: justify;
+    color: white;
+    
+}
+
+.div1 h2 {
+    text-align: justify;
+  
+}
+
+.div1 p {
+    text-align: justify;
+    
+}
